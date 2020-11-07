@@ -1,0 +1,38 @@
+@import '_colors.scss';
+
+$trans: all ease-in-out 0.3s;
+
+.btn {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-green{
+    background-color: $green;
+}
+
+.btn-black{
+    background-color: $black;
+    color: $white;
+
+    &:hover {
+        background-color: $green;
+        color: $white;
+    }
+}
+
+.btn-orange{
+    background-color: $green;
+}
+
+.btn-green-trans{
+    background-color: transparent;
+    border: 2px solid $green;
+    color: $green;
+    margin: 0 0 0 10px;
+
+    &:hover {
+        background-color: $green;
+        color: $white;
+    }
+}

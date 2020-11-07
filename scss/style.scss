@@ -1,0 +1,224 @@
+@import '_colors.scss';
+@import '_assets.scss';
+
+/*STANDARD STYLING STARTS HERE*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.4em;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        transition: $trans;
+        color: $green;
+    }
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .card-img-top {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .card-body {
+        background: $white;
+    }
+}
+
+
+
+/*STANDARD STYLING ENDS HERE*/
+
+
+/*HEADER STYLING STARTS HERE*/
+header {
+
+    /*nav section*/
+    nav {
+        li a {
+            color: rgb(63, 63, 63);
+            padding: 0 15px;
+            text-transform: capitalize;
+            font-weight: 500;
+
+        }
+
+        .nav-phone {
+            display: inline-block;
+
+            a {
+                color: $white;
+            }
+        }
+
+        .navbar-btn {
+            margin: 0 20px;
+
+            button {
+                background-color: $orange;
+                color: $white;
+                text-transform: capitalize;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    /*nav section*/
+
+    /*header-sec section*/
+    .header-section {
+        .header-section-text {
+            h3 {
+                font-weight: 700;
+                padding-top: 35px;
+                font-size: 36px;
+            }
+        }
+    }
+
+    /*header-sec section*/
+}
+
+/*HEADER STYLING ENDS HERE*/
+
+
+/*SERVICES STYLING STARTS HERE*/
+.services {
+
+    /*services-text section*/
+    .services-text {
+        h2 {
+            color: $text-grey;
+        }
+    }
+
+    /*services-text section*/
+
+    /*services-tabs section*/
+
+    /*services-tabs section*/
+}
+
+/*SERVICES STYLING ENDS HERE*/
+
+
+/*CTA STYLING STARTS HERE*/
+.cta {
+    padding: 80px 0;
+    
+    /*cta title section*/
+    /*cta title section*/
+
+    /*cta form section*/
+    .cta-form{
+        width: 100%;
+        text-align: center;
+        input{
+            width: 20%;
+            padding: 10px;            
+            border: none;
+            outline: none;
+        }
+        button {
+            width: 8%;
+            padding: 10px;
+            border: none;
+            outline: none;
+            font-weight: 500;
+        }
+    }
+    /*cta form section*/
+}
+
+/*CTA STYLING ENDS HERE*/
+
+
+/*CLIENTS STYLING STARTS HERE*/
+.clients {
+    ul {
+        display: flex;
+        li {
+            text-align: center;
+            img {
+                width: 50%; 
+            }
+        }
+    }
+}
+/*CLIENTS STYLING ENDS HERE*/
+
+
+/*SUGGESTIONS STYLING STARTS HERE*/
+.suggestions {
+
+/*suggestion text section*/
+/*suggestion text section*/
+
+/*suggestion form section*/
+.suggest-form {
+    input {
+        width: 50%;
+        border: none;
+        padding: 12px 20px;
+    }
+    
+    textarea {
+        width: 50%;
+        height: 100px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        background-color: $white;
+        resize: none;
+        border: none;
+      }
+
+      button {
+        width: 50%;
+      }
+}
+/*suggestion form section*/    
+}
+/*SUGGESTIONS STYLING ENDS HERE*/
+
+
+/*CONTACT STYLING STARTS HERE*/
+.contact {
+/*contact text section*/
+/*contact text section*/
+
+/*contact form section*/
+/*contact form section*/
+}
+/*CONTACT STYLING ENDS HERE*/
+
+
+/*FOOTER STYLING STARTS HERE*/
+/*section one section*/
+/*section one section*/
+
+/*section two section*/
+/*section two section*/
+
+/*section three section*/
+/*section three section*/
+
+/*section four section*/
+/*section four section*/
+/*FOOTER STYLING ENDS HERE*/
