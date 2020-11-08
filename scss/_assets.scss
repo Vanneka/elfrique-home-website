@@ -1,0 +1,62 @@
+@import '_colors.scss';
+
+$trans: all ease-in-out 0.3s;
+
+.btn {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-green{
+    background-color: $green;
+    transition: $trans;
+
+    &:hover {
+        background-color: $dark-green;
+        transition: $trans;
+    }
+}
+
+.btn-black{
+    background-color: $black;
+    color: $white;
+    transition: $trans;
+
+    &:hover {
+        background-color: $green;
+        color: $white;
+        transition: $trans;
+    }
+}
+
+.btn-orange{
+    background-color: $orange;
+    transition: $trans;
+
+    &:hover {
+        background-color: $dark-orange;
+        transition: $trans;
+    }
+}
+
+.btn-green-trans{
+    background-color: transparent;
+    border: 2px solid $green;
+    color: $green;
+    margin: 0 0 0 10px;
+    transition: $trans;
+
+    &:hover {
+        background-color: $green;
+        color: $white;
+        transition: $trans;
+    }
+}
+
+.font-green {
+    color: $green;
+}
+
+.font-orange {
+    color: $orange;
+}

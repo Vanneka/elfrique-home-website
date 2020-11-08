@@ -1,0 +1,553 @@
+@import '_colors.scss';
+@import '_assets.scss';
+
+/*STANDARD STYLING STARTS HERE*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.4em;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        transition: $trans;
+        color: $green;
+    }
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .card-img-top {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .card-body {
+        background: $white;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .overlay-items {
+        position: relative;
+    }
+
+    .overlay-text {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        .event-cost {
+            background-color: $white;
+            padding: 5px 8px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        .event-type {
+            padding: 5px 15px;
+            margin-top: auto;
+            margin-bottom: 0;
+        }
+
+    }
+
+    #event-card-title {
+        font-size: 16px;
+    }
+}
+
+
+
+/*STANDARD STYLING ENDS HERE*/
+
+
+/*HEADER STYLING STARTS HERE*/
+header {
+
+    /*nav section*/
+    nav {
+        li a {
+            color: rgb(63, 63, 63);
+            padding: 0 15px;
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+
+        .nav-item {
+            padding: 10px 0;
+            margin-bottom: 10px;
+            width: 50%;
+        }
+
+        .nav-phone {
+            display: inline-block;
+            background-color: $grey;
+            border-radius: 5px;
+            
+            a {
+                color: $white;
+            }
+        }
+
+        .navbar-btn {
+            margin: 0 20px;
+
+            button {
+                background-color: $orange;
+                color: $white;
+                text-transform: capitalize;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    /*nav section*/
+
+    /*header-sec section*/
+    .header-section {
+
+        .header-form {
+            background-color: #EAEAEA;
+            // width: 80%;
+            padding: 15px 0px;
+            margin: 0 auto;
+            border-radius: 5px;
+
+            form {
+                margin: 0 auto;
+
+                input {
+                    padding: 10px 20px;
+                    border: none;
+                    outline: none;
+                    // border-right: 1px solid rgb(59, 56, 56);
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    width: 100%;
+                    background-color: #EAEAEA;
+                }
+
+                select {
+                    padding: 9.6px 20px;
+                    border: none;
+                    outline: none;
+                    background-color: #EAEAEA;
+                    width: 60%;
+                }
+
+                button {
+                    padding: 9.6px 20px;
+                    border-radius: 0px;
+                    // border-top-right-radius: 5px;
+                    // border-bottom-right-radius: 5px;
+                    width: 40%;
+                }
+            }
+        }
+
+        .header-section-text {
+            h3 {
+                font-weight: 700;
+                padding-top: 35px;
+                font-size: 36px;
+            }
+        }
+    }
+
+    /*header-sec section*/
+}
+
+/*HEADER STYLING ENDS HERE*/
+
+
+/*SERVICES STYLING STARTS HERE*/
+.services {
+
+    /*services-text section*/
+    .services-text {
+        h2 {
+            color: $text-grey;
+        }
+    }
+
+    /*services-text section*/
+
+    /*services-tabs section*/
+
+    /*services-tabs section*/
+}
+
+/*SERVICES STYLING ENDS HERE*/
+
+
+/*CTA STYLING STARTS HERE*/
+.cta {
+    padding: 80px 0;
+
+    /*cta title section*/
+    /*cta title section*/
+
+    /*cta form section*/
+    #cta-form {
+
+        // background-color: red;
+        form {
+            input {
+                // width:100%;
+                padding: 10px;
+                border: none;
+                outline: none;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+
+            button {
+                // width: 50%;
+                padding: 10px;
+                border: none;
+                outline: none;
+                font-weight: 500;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+    }
+
+    /*cta form section*/
+}
+
+/*CTA STYLING ENDS HERE*/
+
+
+/*CLIENTS STYLING STARTS HERE*/
+.clients {
+    ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            text-align: center;
+
+            img {
+                width: 50%;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+/*CLIENTS STYLING ENDS HERE*/
+
+
+/*SUGGESTIONS STYLING STARTS HERE*/
+.suggestions {
+
+    /*suggestion text section*/
+    /*suggestion text section*/
+
+    /*suggestion form section*/
+    .suggest-form {
+        input {
+            width: 70%;
+            border: none;
+            padding: 12px 20px;
+        }
+
+        textarea {
+            width: 70%;
+            height: 100px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            background-color: $white;
+            resize: none;
+            border: none;
+            overflow: auto;
+        }
+
+        button {
+            width: 70%;
+        }
+    }
+
+    /*suggestion form section*/
+}
+
+/*SUGGESTIONS STYLING ENDS HERE*/
+
+
+/*CONTACT STYLING STARTS HERE*/
+.contact {
+    position: relative;
+    top: 100px;
+    z-index: 2;
+    /*contact text section*/
+    /*contact text section*/
+
+    /*contact form section*/
+    .ctct-form {
+        form {
+            width: 80%;
+            margin: 0 auto;
+            padding: 25px;
+            border-radius: 2px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: #fff;
+
+            .form-title {
+                text-transform: uppercase;
+                font-size: 22px;
+            }
+
+            button {
+                text-transform: uppercase;
+                width: 100%;
+            }
+
+            input,
+            textarea {
+                width: 100%;
+                padding: 10px;
+                outline: none;
+            }
+
+            textarea {
+                box-sizing: border-box;
+                background-color: $white;
+                resize: none;
+                border: 1px solid grey;
+                outline: none;
+                overflow: auto;
+            }
+
+            ::placeholder {
+                font-size: 14px;
+            }
+        }
+    }
+
+    /*contact form section*/
+}
+
+/*CONTACT STYLING ENDS HERE*/
+
+
+/*FOOTER STYLING STARTS HERE*/
+footer {
+    padding: 140px 0 0 0;
+    z-index: -99;
+
+    a {
+        color: $white
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    /*section one section*/
+    .section-one {
+        .social-icon {
+            margin-right: 15px;
+            font-size: 22px;
+        }
+
+        .section-one-desc {
+            font-size: 14px;
+        }
+    }
+
+    /*section one section*/
+
+    /*section two section*/
+    .section-two {
+        display: flex;
+
+        .footer-menu-list {
+            padding: 0 10px;
+            text-transform: uppercase;
+            font-size: 14px;
+
+            li {
+                padding: 5px 0;
+            }
+        }
+
+        #legal-menu {
+            font-weight: bold;
+
+            p {
+                text-transform: capitalize;
+            }
+        }
+
+        #quick-links-menu {
+            font-weight: bold;
+
+            p {
+                text-transform: capitalize;
+            }
+        }
+
+        #contact-menu {
+
+            .ct-menu-title {
+                text-transform: capitalize;
+                font-weight: bold;
+                padding-bottom: 15px;
+            }
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+
+    /*section two section*/
+}
+
+/*FOOTER STYLING ENDS HERE*/
+
+// MEDIA QUERIES 
+
+// IPAD STYLING
+@media screen and (min-width: 700px) {
+    .card {
+
+        .card-body {
+            button {
+                margin: 0 0 10px 0;
+
+                &:nth-child(2) {
+                    padding: 7px 17px;
+                }
+            }
+
+        }
+    }
+
+    .clients {
+        ul {
+            display: flex;
+            flex-direction: row;
+    
+        }
+    }
+
+    .care-line {
+        display: flex;
+    }
+
+    .site-tabs {
+        display: flex;
+    }
+
+    .ctct-form {
+        form {
+            width: 150%;
+        }
+    }
+
+    .suggestions {
+        .suggest-form {
+            input {
+                width: 50%;
+            }
+
+            textarea {
+                width: 50%;
+            }
+
+            button {
+                width: 50%;
+            }
+        }
+    }
+    
+
+    footer {
+        padding: 80px 0 0 0;
+
+        .section-one {
+            padding: 0 20px;
+        }
+
+        .section-two {
+            padding: 0 20px;
+        }
+    }
+
+}
+
+// LAPTOP STYLING
+
+@media screen and (min-width: 1080px) {
+
+    header {
+
+        nav {
+
+            .nav-item {
+                padding: 0;
+                margin-bottom: 0;
+                width: auto;
+            }
+
+            .nav-phone {
+                display: inline-block;
+                background-color: $grey;
+                border-radius: 0;
+                
+                a {
+                    color: $white;
+                }
+            }
+        }
+
+        .header-section {
+            .header-form {
+                width: 65%;
+                margin: 0 auto;
+
+                form {
+                    margin: 0 auto;
+
+                    input {
+                        width: 60%;
+                    }
+
+                    select {
+                        width: auto;
+                    }
+
+                    button {
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+    }
+}

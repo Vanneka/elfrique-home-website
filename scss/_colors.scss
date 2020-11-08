@@ -1,0 +1,30 @@
+$green: rgb(106, 174, 86);
+$dark-green:rgb(74, 124, 60);
+$orange: rgb(246, 134, 0);
+$dark-orange: rgb(180, 99, 0);
+$black: rgb(19, 19, 19);
+$grey: rgb(56, 56, 56);
+$dark-grey: rgb(26, 26, 26);
+$text-grey: rgb(45, 45, 45);
+$white: rgb(255, 255, 255);
+
+
+.bg-ash {
+    background-color: $grey;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.bg-orange {
+    background-color: $orange;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.bg-dark-grey {
+    background-color: $dark-grey;
+}
